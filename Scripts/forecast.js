@@ -31,7 +31,7 @@ const getCity = async(city) => {
     return data[0];
 
 };
-
+            // Random comment
 getCity('kolkata').then( data => {
     return getWeather(data.Key);
 }).then( data => {
